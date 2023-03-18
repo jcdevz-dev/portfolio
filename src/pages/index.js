@@ -20,7 +20,6 @@ export default function IndexPage() {
       <Seo title="John Carlo Pontanes Devera" />
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="about" />
-        {/* techs */}
         <Animation type="fadeUp" delay={1000}>
           <Section>
             <div
@@ -35,41 +34,62 @@ export default function IndexPage() {
               <StaticImage
                 src="../images/html.png"
                 alt="Javascript"
-                height={40}
+                height={30}
               />
               <StaticImage
                 src="../images/css.png"
                 alt="Javascript"
-                height={40}
+                height={30}
                 style={{ filter: "invert(1)" }}
               />
               <StaticImage
                 src="../images/js.png"
                 alt="Javascript"
-                height={40}
+                height={30}
               />
               <StaticImage
                 src="../images/ts.png"
                 alt="TypeScript"
-                height={40}
+                height={30}
               />
-              <StaticImage src="../images/react.png" alt="React" height={40} />
-              <StaticImage src="../images/vue.png" alt="Vuw" height={40} />
-              <StaticImage src="../images/node.png" alt="Node js" height={40} />
+              <StaticImage
+                src="../images/react.png"
+                alt="React"
+                height={30}
+              />
+              <StaticImage
+                src="../images/vue.png"
+                alt="Vue"
+                height={30}
+              />
+              <StaticImage
+                src="../images/next.png"
+                alt="Next js"
+                height={30}
+              />
+              <StaticImage
+                src="../images/gatsby.png"
+                alt="Gatsby js"
+                height={30}
+              />
+              <StaticImage
+                src="../images/node.png"
+                alt="Node js" height={30}
+              />
               <StaticImage
                 src="../images/firebase.png"
                 alt="Firebase"
-                height={40}
+                height={30}
               />
               <StaticImage
                 src="../images/laravel.png"
                 alt="Laravel"
-                height={40}
+                height={30}
               />
               <StaticImage
                 src="../images/mongo.png"
                 alt="MongoDB"
-                height={40}
+                height={30}
               />
             </div>
           </Section>

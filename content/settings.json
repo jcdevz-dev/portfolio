@@ -1,20 +1,16 @@
 {
   "siteMetadata": {
     "language": "en",
-    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
+    "siteUrl": "https://www.deverajc.com/",
     "title": "JC",
     "titleTemplate": "%s · Portfolio Minimal",
-    "description": "I've worked with a range of techs in mobile and web development world on Backend and Frontend. Currently more focused on creating fun stuffs on Frontend.",
+    "description": "John Carlo Devera Portfolio.",
     "author": "John Carlo Devera",
     "avatar": "../content/images/jc.jpg",
     "bio": "",
     "social": {
-      "mail": "",
-      "medium": "",
-      "behance": "",
       "github": "https://github.com/jcdevz-dev",
       "linkedin": "https://www.linkedin.com/in/john-carlo-devera-5240761b6/",
-      "gitlab": "https://gitlab.com/jcdevz-dev",
       "untappd": "https://www.onlinejobs.ph/jobseekers/info/1429893",
       "buymeacoffee": "https://www.buymeacoffee.com/jcdevz"
     }
@@ -27,11 +23,7 @@
         { "label": "Projects", "url": "/#projects" },
         { "label": "Contact", "url": "/#contact" }
       ],
-      "ctaButton": {
-        "openNewTab": true,
-        "label": "Resume",
-        "url": "/resume.pdf"
-      },
+      "ctaButton": { "openNewTab": true,  "label": "Resume", "url": "/resume.pdf" },
       "footer": [
         { "label": "Privacy", "url": "/privacy" }
       ]
@@ -39,7 +31,7 @@
     "featureToggles": {
       "useDarkModeAsDefault": true,
       "useDarkModeBasedOnUsersPreference": false,
-      "useCookieBar": true
+      "useCookieBar": false
     }
   }
 }
