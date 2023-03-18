@@ -1,26 +1,81 @@
 import React from "react";
 import {
-  AboutSection,
-  ArticlesSection,
+  ProjectsSection,
   ContactSection,
   HeroSection,
-  InterestsSection,
+  Animation,
+  Section,
   Page,
-  ProjectsSection,
   Seo,
 } from "gatsby-theme-portfolio-minimal";
+import "../../styles/app.css";
+import { StaticImage } from "gatsby-plugin-image";
 
 export default function IndexPage() {
   return (
     <>
-      <Seo title="Gatsby Starter for Portfolio Minimal" />
+      <div id="stars" />
+      <div id="stars2" />
+      <div id="stars3" />
+      <Seo title="John Carlo Pontanes Devera" />
       <Page useSplashScreenAnimation>
-        <HeroSection sectionId="hero" />
-        <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} />
-        <AboutSection sectionId="about" heading="About Portfolio Minimal" />
-        <InterestsSection sectionId="details" heading="Details" />
-        <ProjectsSection sectionId="features" heading="Built-in Features" />
-        <ContactSection sectionId="github" heading="Issues?" />
+        <HeroSection sectionId="about" />
+        
+        <Animation type="fadeUp" delay={1000}>
+          <Section>
+            <div
+              style={{
+                display: "flex",
+                gap: 50,
+                justifyContent: "center",
+                flexWrap: "wrap",
+                marginTop: -10,
+              }}
+            >
+              <StaticImage
+                src="../images/html.png"
+                alt="Javascript"
+                height={40}
+              />
+              <StaticImage
+                src="../images/css.png"
+                alt="Javascript"
+                height={40}
+                style={{ filter: "invert(1)" }}
+              />
+              <StaticImage
+                src="../images/js.png"
+                alt="Javascript"
+                height={40}
+              />
+              <StaticImage
+                src="../images/ts.png"
+                alt="TypeScript"
+                height={40}
+              />
+              <StaticImage src="../images/react.png" alt="React" height={40} />
+              <StaticImage src="../images/vue.png" alt="Vuw" height={40} />
+              <StaticImage src="../images/node.png" alt="Node js" height={40} />
+              <StaticImage
+                src="../images/firebase.png"
+                alt="Firebase"
+                height={40}
+              />
+              <StaticImage
+                src="../images/laravel.png"
+                alt="Laravel"
+                height={40}
+              />
+              <StaticImage
+                src="../images/mongo.png"
+                alt="MongoDB"
+                height={40}
+              />
+            </div>
+          </Section>
+        </Animation>
+        <ProjectsSection sectionId="projects" heading="Featured Projects" />
+        <ContactSection sectionId="contact" heading="Contact Me" />
       </Page>
     </>
   );
