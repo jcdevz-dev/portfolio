@@ -1,22 +1,22 @@
 {
-  "intro": "Hej",
+  "intro": "Hello",
   "heroPhoto": {
-    "src": "../../images/lego-dummy.png",
-    "alt": "My Photo"
+    "src": "../../images/jc.jpg",
+    "alt": "John Carlo Devera"
   },
   "image": {
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "I'm a Gatsby Starter",
+  "title": "I'm John Carlo Devera.",
   "subtitle": {
-    "prefix": "I do all the setup ",
-    "highlight": "for you",
-    "suffix": "."
+    "prefix": "",
+    "highlight": "Frontend",
+    "suffix": " Developer"
   },
-  "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+  "description": "I've worked with a range of techs in mobile and web development world on Backend and Frontend. Currently more focused on creating fun stuffs on Frontend.",
   "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
-    "showIcons": false
+    "from": ["LinkedIn", "Untappd", "Github","BuyMeACoffee"],
+    "showIcons": true
   }
 }

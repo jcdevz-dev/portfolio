@@ -20,7 +20,7 @@ export default function IndexPage() {
       <Seo title="John Carlo Pontanes Devera" />
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="about" />
-        
+        {/* techs */}
         <Animation type="fadeUp" delay={1000}>
           <Section>
             <div
