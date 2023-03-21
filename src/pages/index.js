@@ -10,6 +10,7 @@ import {
 } from "gatsby-theme-portfolio-minimal";
 import "../../styles/app.css";
 import { StaticImage } from "gatsby-plugin-image";
+import Rocket from "../component/rocket";
 
 export default function IndexPage() {
   return (
@@ -52,30 +53,15 @@ export default function IndexPage() {
                 alt="TypeScript"
                 height={30}
               />
-              <StaticImage
-                src="../images/react.png"
-                alt="React"
-                height={30}
-              />
-              <StaticImage
-                src="../images/vue.png"
-                alt="Vue"
-                height={30}
-              />
-              <StaticImage
-                src="../images/next.png"
-                alt="Next js"
-                height={30}
-              />
+              <StaticImage src="../images/react.png" alt="React" height={30} />
+              <StaticImage src="../images/vue.png" alt="Vue" height={30} />
+              <StaticImage src="../images/next.png" alt="Next js" height={30} />
               <StaticImage
                 src="../images/gatsby.png"
                 alt="Gatsby js"
                 height={30}
               />
-              <StaticImage
-                src="../images/node.png"
-                alt="Node js" height={30}
-              />
+              <StaticImage src="../images/node.png" alt="Node js" height={30} />
               <StaticImage
                 src="../images/firebase.png"
                 alt="Firebase"
@@ -97,6 +83,7 @@ export default function IndexPage() {
         <ProjectsSection sectionId="projects" heading="Featured Projects" />
         <ContactSection sectionId="contact" heading="Contact Me" />
       </Page>
+      <Rocket showBelow={250} />
     </>
   );
 }
