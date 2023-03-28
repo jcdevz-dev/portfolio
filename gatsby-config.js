@@ -1,4 +1,9 @@
 module.exports = {
+  siteMetadata: {
+    title: `John Carlo Pontanes Devera`,
+    siteUrl: `https://deverajc.com/`,
+    description: `Portfolio of John Carlo Pontanes Devera a Developer from Nowhere 👽👽👽`,
+  },
   plugins: [
     {
       resolve: "gatsby-theme-portfolio-minimal",
